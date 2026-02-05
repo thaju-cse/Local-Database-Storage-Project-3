@@ -56,18 +56,30 @@ python3 main.py
 
 ## Folder Structure
 ```
-|-- data/
-|    |-- raw/
-|    |-- processed/
-|-- src/
-|    |-- inspect_data.py
-|    |-- clean_transform.py
-|    |-- validate.py
-|    |-- load_to_postgres.py
-|-- images/
-|
-|-- README.md
-|-- requirements.txt
+├── README.md
+├── data
+│   ├── processed
+│   │   └── netflix_tv_cleaned.csv
+│   └── raw
+│       ├── netflix_tv.csv
+│       └── pull_data.py
+├── images
+│   ├── Loaded.png
+│   ├── Records-Count.png
+│   └── Sample-Data.png
+├── requirements.txt
+└── src
+    ├── __pycache__
+    │   ├── clean_transform.cpython-312.pyc
+    │   ├── inspect_data.cpython-312.pyc
+    │   └── validate.cpython-312.pyc
+    ├── clean_transform.py
+    ├── inspect_data.py
+    ├── load_to_postgres.py
+    ├── main.py
+    └── validate.py
+
+7 directories, 16 files
 ```
 ---
 
