@@ -64,6 +64,8 @@ python3 main.py
 |    |-- clean_transform.py
 |    |-- validate.py
 |    |-- load_to_postgres.py
+|-- images/
+|
 |-- README.md
 |-- requirements.txt
 ```
